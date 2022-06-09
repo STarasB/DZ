@@ -1,0 +1,238 @@
+#css-zen-garden {
+    background-image: url(img/1.jpg);
+    color: #c0c0c0b8;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.page-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.intro {
+    grid-column: 1/3;
+}
+
+header {
+    font-family: fantasy;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+header h2 {
+    color: #a5075e;;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+.summary {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+}
+
+.summary a {
+    text-decoration: none;
+    border: 3px solid #a5075e;
+    text-align: center;
+    padding: 5px;
+    border-radius: 15px;
+    color: aqua;
+    white-space: pre;
+    line-height: 3;
+    }
+
+.summary a:hover {
+    background-color: #a5075e;
+}
+
+.preamble h3 {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.preamble {
+    text-align: center;
+}
+
+.main {
+    order: 2;
+}
+
+.main h3 {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.participation a {
+    text-decoration: none;
+    text-align: center;
+    border-radius: 15px;
+    color: aqua;
+    border-radius: 15px;
+    
+}
+
+.participation a:hover {
+    text-decoration: none;
+    text-align: center;
+    background-color: #a5075e;
+    color: aqua;
+    padding: 2px;
+}
+
+.requirements a {
+    text-decoration: none;
+    text-align: center;
+    border-radius: 15px;
+    color: aqua;
+    border-radius: 15px;
+}
+
+.requirements a:hover {
+    text-decoration: none;
+    text-align: center;
+    background-color: #a5075e;
+    color: aqua;
+    padding: 2px;
+}
+
+.sidebar {
+    order: 1;    
+}
+
+.design-selection h3{
+    display: none;
+}
+
+.design-archives h3 {
+    display: none;
+}
+
+.zen-resources h3 {
+    display: none;
+}
+
+ul {
+    margin-bottom: 100px;
+}
+
+.design-selection li {
+    list-style: none;
+    border: 3px solid #a5075e;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 30px;
+    color: #c0c0c0b8;
+    
+}
+
+.design-selection li:hover {
+    background-color: #a5075e;
+}
+
+.design-selection a {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aqua;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+}
+
+li a:nth-child(1) {
+    display: block;
+    font-size: 18px;
+    white-space: nowrap;
+}
+
+li a:nth-child(2) {
+    text-transform: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;
+    font-size: 16px;
+    color:aqua;
+}
+
+#design-archives li, #zen-resources li {
+    list-style: none;
+}
+
+.design-archives a {
+    list-style: none;
+    border: 3px solid #a5075e;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: aqua;
+}
+.design-archives a:hover {
+    background-color: #a5075e;
+    transform: scale(1, 1.2);
+}
+
+.zen-resources a {
+    list-style: none;
+    border: 3px solid #a5075e;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: aqua;
+}
+
+.zen-resources a:hover {
+    background-color: #a5075e;
+    transform: scale(1, 1);
+}
+
+footer {
+    margin-top: 100px;
+    text-align: center;
+    
+}
+
+footer a {
+    list-style: none;
+    border: 3px solid #a5075e;
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+    color: aqua;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace; ;
+}
+
+footer a:hover {
+    background-color: #a5075e;
+}
+
+@media (max-width: 800px) {
+    .page-wrapper {
+        margin: 10px;
+    }
+
+    .page-wrapper {
+        display: block
+    }
+
+    footer {
+        display: block;
+        margin-bottom: 100px;
+    }
+
+    footer a {
+        line-height: 4;
+    }
+}
+
